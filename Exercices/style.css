@@ -1,0 +1,210 @@
+/*index2 debut*/
+
+@font-face {
+	font-family: "Caslon";
+	src: url("/css/ACalsonPro-Regular") format("otf");
+}
+.titre-principal {
+	text-decoration: underline;
+	color: #EFF0D1;
+
+}
+
+.titre-secondaire {
+	color: #EFF0D1;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EFF0D1;
+}
+
+.paragraphe-1 {
+	color: #EFF0D1;
+	flex-direction: column;
+	align-items: center;
+	padding:10px;
+	margin: 10px;
+}
+
+.paragraphe-2 {
+	color: #EFF0D1;
+	flex-direction:column;
+	align-items: center;
+	padding:10px;
+	margin: 10px;
+}
+
+.section-one {
+	color: #EFF0D1;
+	flex-direction:column;
+	align-items: center;
+	padding:10px;
+	margin: 10px;
+}
+
+.section-two {
+	color: #EFF0D1;
+	flex-direction:column;
+	align-items: center;
+	padding:10px;
+	margin: 10px;
+}
+
+.section-tree {
+	color: #EFF0D1;
+	flex-direction:column;
+	align-items: center;
+	padding:10px;
+	margin: 10px;
+}
+
+body{
+/*	background-color:#282828;*/
+	
+}
+
+.global {
+	flex-direction: row;
+}
+
+.image {
+	display:flex;
+	align-items: center;
+	padding:10px;
+	margin:10px;
+	flex-direction: column;
+}
+
+/*index2 fin*/
+
+/*flexbox debut*/
+
+h1 {
+	border: 1px solid #000000;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	font-size:3em;
+}
+
+.section-1 div {
+	width:50%;
+	height:40vh;
+}
+
+.section-1 {
+	display:flex;
+	flex-wrap: wrap
+}
+
+.one {
+	background-color: blue
+}
+
+.two {
+	background-color: rgb(155, 33, 25);
+}
+
+.tree {
+	background-color: #2196F3
+}
+
+.four {
+	background-color: red
+}
+
+.section-2 {
+	display: flex;
+}
+
+.section-2 div {
+	/*width :calc(100% / 3);*/
+	padding: 0 10px;
+}
+
+.thumb-paragraph {
+	text-align: justify;
+}
+
+.thumb-image {
+	width: 100%;
+	height: 40vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.thumbnail-1 .thumb-image {
+	background-image: url("Image/chien.jpeg");
+	background-position: center center
+}
+
+.thumbnail-2 .thumb-image {
+	background-image: url("Image/mouette.jpg");
+	background-position: center center;
+}
+
+.thumbnail-3 .thumb-image {
+	background-image: url("Image/fleur.jpeg");
+	background-position: center center;
+}
+
+/*flexbox fin*/
+
+/*MENU SIMPLE HTML*/
+.menu-principal {
+	height: 80px;
+	width: 100%;
+	box-shadow: 1px 3px 4px 2px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	height: 100%;
+}
+
+.pages{
+	display:flex;
+	width: 40%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pages li {
+	padding: 11px;
+}
+
+a:hover {
+	cursor: pointer;
+	color: red;
+	border: 1px solid black
+}
+
+a:hover li {
+	padding: 10px;
+}
+
+body {
+	font-family: "Caslon";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

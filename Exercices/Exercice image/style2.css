@@ -1,0 +1,136 @@
+.menu-principal ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+
+}
+
+.menu-principal{
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	width: 100%;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+li{
+	padding: 20px;
+	margin: 0px 20px;
+}
+
+.logo{
+	height: 80%;
+	width: 150px;
+}
+
+.image1{
+	height: 60vh;
+	width: 100%;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.menu-principal a:hover{
+	color: blue;
+
+}
+
+.bg-image{
+	display: flex;
+	margin: 50px 50px;
+}
+
+.image-1{
+	background-image: url("../Image/chien.jpeg");
+	height: 40vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.image-2{
+	background-image: url("../Image/fleur.jpeg");
+	height: 40vh;
+	width: 100% ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.image-3{
+	background-image: url("../Image/mouette.jpg");
+	height: 40vh;
+	width: 100% ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.img-html{
+	display: flex;
+	margin: 50px 50px;
+}
+
+.images{
+	width: calc(100% / 3 - 20px);
+	margin: 10px;
+
+}
+
+.fleur{
+	height: 40vh;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.chien{
+	height: 40vh;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.mouette{
+	height: 40vh;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/*MOBILE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

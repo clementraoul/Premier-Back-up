@@ -1,0 +1,56 @@
+.menu-principal ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+li{
+	padding: 20px;
+	margin: 0px 50px;
+}
+
+.logo{
+	height: 80%;
+	width: 150px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.menu-principal a:hover{
+	color:;
+
+}
+
+.bg-image{
+	display:flex;
+}
+
+.image-1{
+	background-image: url("Image/chien.jpeg");
+	height: 40vh;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.image-2{
+	background-image: url("Image/fleur.jpeg");
+	height: 40vh ;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.image-3{
+	background-image: url("Image/mouette.jpg");
+	height: 40vh;
+	width: 100%;
+	background-repeat: no-repeat;
+}

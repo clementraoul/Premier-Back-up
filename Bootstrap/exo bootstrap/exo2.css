@@ -1,0 +1,54 @@
+.carousel-inner{
+	width: 100vw;
+	height: 100vh;
+}
+
+.appareil{
+	align-items: left;
+	width: 80%;
+	height: 80%;
+}
+
+.objectif{
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+
+.map{
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+
+.vespa{
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+
+.marcher{
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+
+.paradise{
+width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+.mouette{
+width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+.chien{
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+
+.objectif{
+		height: 50%;
+}
